@@ -1,0 +1,45 @@
+header{
+    background-color: blue;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    margin-top: 10px;
+    height: 500px;
+}
+div>article{
+    display: flex;
+    background-color: orange;
+    flex: 2;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 5px;
+}
+div>article+nav{
+    display: flex;
+    background-color: green;
+    flex: 1;
+    order: -1;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 5px;
+}
+div>article+nav+aside{
+    display: flex;
+    background-color: orange;
+    flex: 1;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 5px;
+}
+footer{
+    background-color: blue;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+}

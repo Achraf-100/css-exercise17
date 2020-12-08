@@ -1,0 +1,116 @@
+.E1
+{   position: relative;     
+    max-width: max-content;
+    font-size: 100px; 
+} 
+.E1::before
+{   position: absolute;     
+    content: "";     
+    height: 10%;     
+    width: 0%;    
+    background-color: red;     
+    transition: 2s;     
+    z-index: -1;     
+    top: 80%;     
+    bottom: 0;      
+    } 
+
+.E1:hover::before
+{   animation: EXO1 2s;     
+    width: 100%; 
+}
+
+.E2{
+    position: relative;
+    max-width: max-content;
+    font-size: 100px; 
+}
+.E2::before{
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 100%;
+    background-color: red;
+    transition: 2s;
+    bottom: 0;
+    transform: scaleX(0);
+
+}
+.E2:hover::before{
+    transform: scaleX(1);
+}
+
+.E3{
+    position: relative;
+    max-width: max-content;
+    font-size: 100px;
+}
+.E3::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    background-color: red;
+    transition: 2s;
+    z-index: -1;
+}
+
+.E3:hover::before{
+    height: 100%;
+}
+
+
+
+
+
+.draw {
+    transition: color 0.25s;
+
+  &::before,
+  &::after {
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+  }
+
+  // This covers the top & right borders (expands right, then down)
+  &::before {
+    top: 0;
+    left: 0;
+  }
+
+  // And this the bottom & left borders (expands left, then up)
+  &::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  &:hover {
+    color: $cyan;
+  }
+
+  // Hover styles
+  &:hover::before,
+  &:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover::before {
+    border-top-color: $cyan; // Make borders visible
+    border-right-color: $cyan;
+    transition:
+      width 0.25s ease-out, // Width expands first
+      height 0.25s ease-out 0.25s; // And then height
+  }
+
+  &:hover::after {
+    border-bottom-color: $cyan; // Make borders visible
+    border-left-color: $cyan;
+    transition:
+      border-color 0s ease-out 0.5s, // Wait for ::before to finish before showing border
+      width 0.25s ease-out 0.5s, // And then exanding width
+      height 0.25s ease-out 0.75s; // And finally height
+  }
+}

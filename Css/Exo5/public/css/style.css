@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 600px;
+}
+.flex-item{
+    margin: 10px;
+    display: flex;
+    align-items: c;
+    padding: 100px;
+    background-color: green;
+    height: 200px;
+}

@@ -1,0 +1,21 @@
+.display{
+    height: 70vh;
+    border: solid 2px black;
+    display: flex;
+}
+
+.rouge{
+    background-color: red;
+    height: 100px; width: 100px;
+    flex: 1;
+}
+.vert{
+    background-color: green;
+    height: 100px; width: 100px;
+    flex: 2;
+}
+.orange{
+    background-color: orange;
+    height: 100px; width: 100px;
+    flex: 3;
+}   

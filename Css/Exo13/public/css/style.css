@@ -1,0 +1,148 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav> div{
+    background-color: black;
+    height: 120px;
+}
+.nav{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+#logo{
+    margin-left: 50px;
+}
+.nav2{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2>a{
+    margin-bottom: 15px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.nav2 img{
+    margin-bottom: 10px;
+}
+#logo2{
+    height: 250px;
+    margin-left: 300px;
+}
+.nav3{
+    display: flex;
+    background-color: rgb(41, 41, 73);
+    height: 300px;
+}
+.imgg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+.texte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    font-size: 25px;
+    color: white;
+}
+section{
+    display: flex;
+    background-color: white;
+    height: 600px;
+}
+.eclosion{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+}
+#eclo{
+    margin-right: 80px;
+    margin-bottom: 25px;
+}
+h2{
+    background-color:  rgb(41, 41, 73);
+    padding: 20px;
+    color: white;
+}
+p{
+    margin-left: 50px;
+}
+.eclo-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    font-size: 20px;
+}
+.eclo-ranger>img{
+    height: 90px;
+    margin: 100px;
+}
+.eclo-ranger{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+section:nth-of-type(2){
+    display: flex;
+    background-color: white;
+    height: 600px;
+}
+.eclosion{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+}
+#eclo{
+    margin-right: 80px;
+    margin-bottom: 25px;
+}
+h2{
+    background-color:  rgb(41, 41, 73);
+    padding: 20px;
+    color: white;
+}
+p{
+    margin-left: 50px;
+}
+.eclo-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    font-size: 20px;
+}
+.eclo-ranger>img{
+    height: 90px;
+    margin: 100px;
+}
+.eclo-ranger{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
