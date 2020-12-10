@@ -1,0 +1,79 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body .naav {
+  background-color: purple;
+  display: flex;
+}
+body .naav #contact-logo {
+  height: 50px;
+  width: auto;
+}
+body .naav .text {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+body .naav #place {
+  color: white;
+  margin-right: 10px;
+}
+body .naav button {
+  background-color: lawngreen;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+}
+body .naav input {
+  height: 30px;
+  border-radius: 5px;
+}
+body .banner {
+  display: flex;
+  border-bottom: solid 1px #d1cfcf;
+}
+body .banner .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border-right: solid 1px #d1cfcf;
+}
+body .banner #logo {
+  height: 100px;
+  width: auto;
+}
+body .banner .liste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+}
+body .banner a {
+  text-decoration: none;
+  color: black;
+}
+body .banner ul {
+  display: flex;
+  list-style: none;
+}
+body .banner li {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+body .banner .coworking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border-left: solid 1px #d1cfcf;
+}
+body .banner a:hover {
+  border-bottom: solid 2px black;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,77 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    .naav{
+        background-color: purple;
+        display: flex;
+        #contact-logo{
+            height: 50px;
+            width: auto;
+        }
+        .text{
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+        }
+        #place{
+            color: white;
+            margin-right: 10px;
+        }
+        button{
+            background-color: lawngreen;
+            height: 40px;
+            border-radius: 10px;
+            color: white;
+            margin-left: 10px;
+        }
+        input{
+            height: 30px;
+            border-radius: 5px;
+        }
+    }
+    .banner{
+        display: flex;
+        border-bottom: solid 1px rgb(209, 207, 207);
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            border-right: solid 1px rgb(209, 207, 207);
+        }
+        #logo{
+            height: 100px;
+            width: auto;
+        }
+        .liste{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 3;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        li{
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        .coworking{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            border-left: solid 1px rgb(209, 207, 207);
+        }
+        a:hover{
+            border-bottom: solid 2px black;
+        }
+    }
+}
