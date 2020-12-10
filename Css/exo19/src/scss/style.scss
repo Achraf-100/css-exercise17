@@ -120,5 +120,40 @@ body{
         text-align: center;
        }
    } 
+   footer{
+       background-color: rgb(59, 58, 58);
+       padding-top: 50px;
+       .reseaux{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+            padding-bottom: 100px;
+            border-bottom: solid 1px rgb(102, 101, 101);
+            span{
+                color: white;
+            }
+       }
+       .fab{
+           color: white;
+           border: solid 2px white;
+           border-radius: 50%;
+           padding: 20px;
+           margin-left: 50px;
+           margin-right: 50px;
+       }
+       .logo-foot{
+            text-align: center;
+            padding-top: 80px;
+            img{
+                height: 100px;
+                width: auto;
+            }
+       }
+       .copy{
+           text-align: center;
+           padding-top: 80px;
+       }
+   }
 
 }

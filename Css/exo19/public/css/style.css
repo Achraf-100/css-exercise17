@@ -115,5 +115,40 @@ body section .pp {
   flex-direction: column;
   text-align: center;
 }
+body footer {
+  background-color: #3b3a3a;
+  padding-top: 50px;
+}
+body footer .reseaux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  border-bottom: solid 1px #666565;
+}
+body footer .reseaux span {
+  color: white;
+}
+body footer .fab {
+  color: white;
+  border: solid 2px white;
+  border-radius: 50%;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body footer .logo-foot {
+  text-align: center;
+  padding-top: 80px;
+}
+body footer .logo-foot img {
+  height: 100px;
+  width: auto;
+}
+body footer .copy {
+  text-align: center;
+  padding-top: 80px;
+}
 
 /*# sourceMappingURL=style.css.map */
