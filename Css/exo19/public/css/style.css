@@ -75,5 +75,45 @@ body .banner .coworking {
 body .banner a:hover {
   border-bottom: solid 2px black;
 }
+body section .molen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body section .molen h1 {
+  font-size: 60px;
+}
+body section .molen hr {
+  width: 50px;
+  color: purple;
+}
+body section .molen p {
+  font-size: 20px;
+  padding: 50px;
+}
+body section .liste-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body section .liste-2 ul {
+  margin-left: 150px;
+  font-size: 15px;
+}
+body section .liste-2 li::marker {
+  color: purple;
+}
+body section .last-section h2 {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+}
+body section .pp {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */

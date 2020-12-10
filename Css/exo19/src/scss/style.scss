@@ -74,4 +74,51 @@ body{
             border-bottom: solid 2px black;
         }
     }
+   section{
+       .molen{
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+           align-items: center;
+           h1{
+               font-size: 60px;
+           }
+           hr{
+               width: 50px;
+               color: purple;
+           }
+           p{
+               font-size: 20px;
+               padding: 50px;
+           }
+       }
+       .liste-2{
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+           align-items: center;
+           ul{
+               margin-left: 150px;
+               font-size: 15px;
+           }
+           li::marker{
+               color: purple;
+           }
+       }
+   }
+   section{
+       .last-section{
+           h2{
+               text-align: center;
+               font-size: 50px;
+               padding: 50px;
+           }
+       }
+       .pp{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       }
+   } 
+
 }
